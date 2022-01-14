@@ -1,0 +1,17 @@
+$
+;Name: Tom Nagel, Student number: 1716042
+
+(declare-fun F (Int) Bool)
+(declare-fun a (Int) Int)
+(declare-fun b (Int) Int)
+
+(assert (= (a 0) 1))
+(assert (= (b 0) 1))
+
+;For loop
+$
+$
+;Compute result
+(check-sat)
+(get-model)
+$
